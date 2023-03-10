@@ -9,6 +9,6 @@ class TestPrime(unittest.TestCase):
     def test_nine(self):
     	self.assertFalse(is_prime(9))
     def test_eleven(self):
-    	self.assertTrue(is_prime(11))
+        self.assertTrue(is_prime(11))
 if __name__=='__main__':
 	unittest.main()
